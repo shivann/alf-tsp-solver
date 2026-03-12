@@ -28,7 +28,7 @@ echo "Calling Gemini CLI..."
 RESULT_FILE="proposal.py"
 
 # Capture the raw output
-gemini ask "$PROMPT" --tools="membrix-mcp" > "$RESULT_FILE" 2> agent_stderr.log
+gemini ask "$PROMPT" > "$RESULT_FILE" 2> agent_stderr.log
 
 EXIT_CODE=$?
 if [ $EXIT_CODE -ne 0 ]; then
