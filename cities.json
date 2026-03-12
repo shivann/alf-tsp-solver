@@ -1,0 +1,7 @@
+[
+  {"name": "CityA", "x": 10, "y": 20},
+  {"name": "CityB", "x": 50, "y": 80},
+  {"name": "CityC", "x": 90, "y": 10},
+  {"name": "CityD", "x": 20, "y": 60},
+  {"name": "CityE", "x": 70, "y": 40}
+]
